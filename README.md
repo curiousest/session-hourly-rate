@@ -1,5 +1,7 @@
 # session-hourly-rate
 
+An analysis of how hourly rate of sessions affect the likelihood that they are filled in a marketplace.
+
 ## To run
 
 * Clone https://github.com/networklocum/data-toolkit
