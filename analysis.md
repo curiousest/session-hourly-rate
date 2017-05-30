@@ -145,4 +145,4 @@ Selecting just the hourly rates falling on increments of 5, this is how hourly r
 
 ![](increments_of_5_delta.png)
 
-Most data being below 0 is likely because hourly rates not falling on increments of 5 have low fill rates, when compared with those that do fall on increments of 5.
+Most data being below 0 is likely because hourly rates not falling on increments of 5 have low fill rates, when compared with those that do fall on increments of 5. Note that practice and ccg id were not held constant for this hourly rate analysis. Those would be an obvious next step to compare, but would significantly reduce the number of comparable sessions across an hourly rate delta.
