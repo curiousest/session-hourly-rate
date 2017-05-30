@@ -1,3 +1,14 @@
+## Table of Contents
+
+* [Initial exploration](https://github.com/curiousest/session-hourly-rate/blob/master/analysis.md#initial-exploration)
+* [Data visualization](https://github.com/curiousest/session-hourly-rate/blob/master/analysis.md#data-visualization)
+  * [Overall](https://github.com/curiousest/session-hourly-rate/blob/master/analysis.md#data-visualization)
+  * [For sessions that occurred at a particular time of day](https://github.com/curiousest/session-hourly-rate/blob/master/analysis.md#for-sessions-that-occurred-at-a-particular-time-of-day)
+  * [For sessions that were a particular length](https://github.com/curiousest/session-hourly-rate/blob/master/analysis.md#for-sessions-that-were-a-particular-length)
+  * [For sessions starting each day of the week](https://github.com/curiousest/session-hourly-rate/blob/master/analysis.md#for-sessions-starting-on-each-day-of-the-week)
+* [Predictive analysis](https://github.com/curiousest/session-hourly-rate/blob/master/analysis.md#predictive-analysis)
+* [Statistical analysis](https://github.com/curiousest/session-hourly-rate/blob/master/analysis.md#statistical-analysis)
+
 ## Initial exploration
 
 [Data exploration notebook](hourly_explore.ipynb)
