@@ -145,4 +145,4 @@ Selecting just the hourly rates falling on increments of 5, this is how hourly r
 
 ![](increments_of_5_delta.png)
 
-Most data being below 0 is likely because hourly rates not falling on increments of 5 have low fill rates, when compared with those that do faill on increments of 5.
+Most data being below 0 is likely because hourly rates not falling on increments of 5 have low fill rates, when compared with those that do fall on increments of 5.
