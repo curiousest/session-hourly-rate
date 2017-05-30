@@ -34,9 +34,9 @@ Next, I made similar visualizations that take into consideration several time fe
 
 ![](hourly_rate_afternoon.png)
 
-#### Evening
+#### Night
 
-![](hourly_rate_evening.png)
+![](hourly_rate_night.png)
 
 ### For sessions that were a particular length
 
