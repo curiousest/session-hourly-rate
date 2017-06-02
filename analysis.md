@@ -134,15 +134,21 @@ To come up with a fill rate difference for a given hourly rate difference (and o
 Ex:
 
 For hourly rate = 60, 5 filled, 15 unfilled.
+
 For hourly rate = 65, 10 filled, 20 unfilled.
+
 For hourly rate = 70, 15 filled, 25 unfilled.
 
 For hourly rate difference = 5:
+
 Fill rate difference between 60 and 65 = (10/(10 + 20)) - (5/(5 + 15)), weight = min(5 + 15, 10 + 20)
+
 Fill rate difference between 65 and 70 = (15/(15 + 25)) - (10/(10 + 20)), weight = min(10 + 20, 15 + 25)
 
 Overall fill rate difference for hourly rate difference = 5:
+
 (weight of 60->65)/(total of all weights) x (fill rate difference 60->65) +
+
 (weight of 65->70)/(total of all weights) x (fill rate difference 65->70)
 
 The differences had to be weighted by their vague probability of occurring. I also wanted to prevent situations where the previous hourly rate had 1 instance, but the afterwards hourly rate had 10000s of instances, and so was weighted heavily. In that case, the weight should be low, hence the minimum of the two values.
